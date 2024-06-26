@@ -1,9 +1,10 @@
+/* common styles */
 *{
     margin: 0;
     padding: 0;
     font-family: work sans;
 }
-
+/* header related styles */
 .header-container{
     background-image: url('../images/banner/banner1.png');
     display: flex;
@@ -36,4 +37,41 @@
     background-color:#F15B22 ;
     color: #ffffff;
     font-size: 16px;
+}
+/* main related styles */
+
+/* first section related styles */
+.first-section{
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-between;
+}
+.left-side{
+    margin-left: 200px;
+    width: 50%;
+}
+.right-side{
+    text-align: left;
+    margin: 250px 50px 50px 100px;
+}
+.title{
+    font-size: 40px;
+    font-weight: 700;
+    width: 50%;
+    margin-bottom: 15px;
+}
+.first-section-text{
+    width: 90%;
+}
+.first-section-text > p{
+    margin-bottom: 15px;
+}
+.first-section-text-list{
+    list-style: none;
+    
+}
+.first-section-text-list >li > img{
+    margin-right: 5px;
+    padding-top: 2px;
+    color: #16D887 ;
 }
