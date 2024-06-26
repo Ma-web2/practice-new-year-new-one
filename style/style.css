@@ -1,4 +1,39 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: work sans;
+}
+
+.header-container{
+    background-image: url('../images/banner/banner1.png');
+    display: flex;
+    height: 808px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: inherit;
+    
+}
+.header-text{
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    padding: 300px 120px 80px 900px;
+}
+.header-title{
+    font-size: 65px;
+    font-weight: 700;
+
+}
+.header-description{
+    font-size: 16px;
+    margin-top: 20px;
+    color: rgba(49, 49, 49, 0.808);
+}
+.header-btn{
+    margin-top: 20px;
+    padding: 20px 45px ;
+    border: 0;
+    background-color:#F15B22 ;
+    color: #ffffff;
+    font-size: 16px;
 }
