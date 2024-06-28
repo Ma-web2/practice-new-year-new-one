@@ -94,3 +94,32 @@
     margin-top: 5px;
     margin-bottom: 5px;
 }
+/* banner section starts here */
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 90px 100px;
+    height: 300px;
+    width: auto;
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.banner{
+    padding: 90px 600px 0px 0px;
+}
+.banner-text{
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+}
+.call-btn{
+    background-color:white;
+    color: #F15B22;
+    margin-top: 12px;
+    padding: 15px 25px;
+    border: 0;
+    border-radius: 2px;
+}
